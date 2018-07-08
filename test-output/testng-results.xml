@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="157844" started-at="2018-07-02T12:15:35Z" finished-at="2018-07-02T12:18:13Z">
+    <groups>
+    </groups>
+    <test name="Test automation" duration-ms="97659" started-at="2018-07-02T12:15:35Z" finished-at="2018-07-02T12:17:13Z">
+      <class name="TestInstitute.HomePage">
+        <test-method status="PASS" signature="initilizedata()[pri:0, instance:TestInstitute.HomePage@6e0dec4a]" name="initilizedata" is-config="true" duration-ms="40460" started-at="2018-07-02T17:45:35Z" finished-at="2018-07-02T17:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizedata -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestInstitute.HomePage@6e0dec4a]" name="basePageNavigation" duration-ms="46211" started-at="2018-07-02T17:46:16Z" data-provider="getData" finished-at="2018-07-02T17:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestInstitute.HomePage@6e0dec4a]" name="basePageNavigation" duration-ms="9867" started-at="2018-07-02T17:47:02Z" data-provider="getData" finished-at="2018-07-02T17:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manishkumar9321fffff@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestInstitute.HomePage@6e0dec4a]" name="closeBrowser" is-config="true" duration-ms="1021" started-at="2018-07-02T17:47:12Z" finished-at="2018-07-02T17:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestInstitute.HomePage -->
+    </test> <!-- Test automation -->
+    <test name="Test automation1" duration-ms="59322" started-at="2018-07-02T12:17:14Z" finished-at="2018-07-02T12:18:13Z">
+      <class name="TestInstitute.ValidateTitle">
+        <test-method status="PASS" signature="initilizedata()[pri:0, instance:TestInstitute.ValidateTitle@10e92f8f]" name="initilizedata" is-config="true" duration-ms="28966" started-at="2018-07-02T17:47:14Z" finished-at="2018-07-02T17:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizedata -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestInstitute.ValidateTitle@10e92f8f]" name="basePageNavigation" duration-ms="1173" started-at="2018-07-02T17:47:43Z" finished-at="2018-07-02T17:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestInstitute.ValidateTitle@10e92f8f]" name="closeBrowser" is-config="true" duration-ms="29179" started-at="2018-07-02T17:47:44Z" finished-at="2018-07-02T17:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestInstitute.ValidateTitle -->
+    </test> <!-- Test automation1 -->
+    <test name="Test automation2" duration-ms="2" started-at="2018-07-02T12:18:13Z" finished-at="2018-07-02T12:18:13Z">
+    </test> <!-- Test automation2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestInstitute.ValidateTitle">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initilizedata"/>
+        </methods>
+      </class> <!-- TestInstitute.ValidateTitle -->
+      <class name="TestInstitute.HomePage">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
+          <include name="initilizedata"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestInstitute.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

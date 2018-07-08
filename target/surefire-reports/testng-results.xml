@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="144550" started-at="2018-07-02T11:45:57Z" finished-at="2018-07-02T11:48:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="144550" started-at="2018-07-02T11:45:57Z" finished-at="2018-07-02T11:48:22Z">
+      <class name="TestInstitute.ValidateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestInstitute.ValidateTitle@3b07a0d6]" name="basePageNavigation" duration-ms="457" started-at="2018-07-02T17:18:17Z" finished-at="2018-07-02T17:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- TestInstitute.ValidateTitle -->
+      <class name="TestInstitute.HomePage">
+        <test-method status="PASS" signature="initilizedata()[pri:0, instance:TestInstitute.HomePage@15b204a1]" name="initilizedata" is-config="true" duration-ms="50383" started-at="2018-07-02T17:15:57Z" finished-at="2018-07-02T17:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizedata -->
+        <test-method status="PASS" signature="initilizedata()[pri:0, instance:TestInstitute.ValidateTitle@3b07a0d6]" name="initilizedata" is-config="true" duration-ms="53106" started-at="2018-07-02T17:16:48Z" finished-at="2018-07-02T17:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizedata -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestInstitute.HomePage@15b204a1]" name="basePageNavigation" duration-ms="25642" started-at="2018-07-02T17:17:41Z" data-provider="getData" finished-at="2018-07-02T17:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestInstitute.HomePage@15b204a1]" name="basePageNavigation" duration-ms="10415" started-at="2018-07-02T17:18:06Z" data-provider="getData" finished-at="2018-07-02T17:18:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manishkumar9321fffff@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manishkumar9321@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestInstitute.HomePage@15b204a1]" name="closeBrowser" is-config="true" duration-ms="555" started-at="2018-07-02T17:18:17Z" finished-at="2018-07-02T17:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestInstitute.ValidateTitle@3b07a0d6]" name="closeBrowser" is-config="true" duration-ms="3953" started-at="2018-07-02T17:18:18Z" finished-at="2018-07-02T17:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestInstitute.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
